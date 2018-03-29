@@ -330,6 +330,11 @@ if(FLATBUFFERS_INSTALL)
       DESTINATION ${FB_CMAKE_DIR}
     )
   endif()
+
+  # Install package.xml (for catkin)
+  install(FILES package.xml
+    DESTINATION "share/${PROJECT_NAME}"
+  )
 endif()
 
 if(FLATBUFFERS_BUILD_TESTS)

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>flatbuffers</name>
+  <version>1.8.0</version>
+  <description>Google flatbuffers.</description>
+
+  <maintainer email="jacob@aandkrobotics.com">Jacob Perron</maintainer>
+
+  <license>Apache 2.0</license>
+
+  <author email="aardappel@gmail.com">Wouter Van Oortmerssen</author>
+
+  <buildtool_depend>cmake</buildtool_depend>
+
+  <exec_depend>catkin</exec_depend>
+
+  <export>
+    <build_type>cmake</build_type>
+  </export>
+</package>
